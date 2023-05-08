@@ -1,0 +1,33 @@
+.alert-wrapper {
+    background-color: ($main-color);
+    color: ($main-button-color);
+    position: relative;
+    width: 100%;
+    height: 25px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+.alert-text {
+    text-align: center;
+    font-size: 15px;
+    transition: all .5s ease;
+}
+
+@media (max-width: 790px) {
+    .alert-text {
+        text-align: center;
+        font-size: 10px;
+        transition: all .5s ease;
+    }
+}
+
+@media (max-width: 536px) {
+    .alert-text {
+        text-align: center;
+        font-size: 8px;
+        transition: all .5s ease;
+    }
+}

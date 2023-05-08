@@ -1,0 +1,51 @@
+.breadcrumb {
+
+}
+
+.breadcrumb-wrapper {
+    padding: 0 .5rem;
+    font-family: 'poppins', sans-serif;
+}
+
+.breadcrumb-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 450px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumb-wrapper ul li {
+    margin-right: 0;
+}
+
+.breadcrumb-wrapper ul li a {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.breadcrumb-wrapper ul li a:hover {
+    text-align: center;
+    color: #cf2d76;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.breadcrumb-wrapper ul li:after {
+    content: "/";
+    position: relative;
+    top: 0;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #000;
+    margin: 10px;
+}
+
+.breadcrumb-wrapper ul li:last-child:after {
+    display: none;
+}

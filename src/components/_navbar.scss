@@ -1,0 +1,54 @@
+// :root {
+//     --main-button-color: #60C9C3;
+//     --main-button-hover-color: #22615e;
+//     --main-button-text-color: #ffffff;
+//     --main-button-inactive-color: #afd5d3;
+//     --nav-button-hover-color: #F45757;
+//     --nav-button-text-color: #998E8E;
+//     --nav-button-inactive-color: none;
+// }
+
+
+.logo-button {
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    color: ($main-color);
+    background-color: ($nav-button-inactive-color);
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 15px;
+    font-size: 20px;
+    transition: all .50s ease;
+}
+// .logo-button:hover {
+//     background-color: ($main-color);
+//     border-radius: 15px;
+//     font-size: large;
+//     padding: 15px 20px;
+//     margin: 0;
+//     transition: all .50s ease;
+// }
+
+  .nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+  }
+
+  .nav-link {
+    text-decoration: none;
+  }
+
+
+@media (max-width: 910px) {
+    .nav-button {
+        display: none;
+    }
+} 
+// @media (min-width: 850px) {
+//     .nav-button-menu {
+//         display: none;
+//     }
+// }

@@ -1,0 +1,156 @@
+/*NAV BUTTON*/
+
+.nav-button{
+    $font: "poppins", sans-serif;
+    font-weight: 700;
+    color: ($nav-button-text-color);
+    background-color: ($nav-button-inactive-color);
+    border: none;
+    border-radius: 40px;
+    padding: 15px 20px;
+    margin: 10px;
+    transition: all .50s ease;
+}
+
+.nav-button.button-default:hover {
+    color: ($main-button-text-color);
+    background-color: ($nav-button-hover-color);
+    padding: 25px 30px;
+    margin: 0;
+    transition: all .50s ease;
+}
+
+.nav-button.active {
+    color: ($main-button-text-color);
+    background-color: ($nav-button-hover-color);
+    padding: 25px 30px;
+    margin: 0;
+}
+
+/*MAIN BUTTON*/
+
+.main-btn {
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    color: ($main-button-text-color);
+    background-color: ($main-button-color);
+    border: none;
+    border-radius: 40px;
+    padding: 18px 100px;
+    margin: 10px;
+    transition: all .50s ease;
+}
+
+.main-btn.btn-default:hover {
+    background-color: ($main-button-hover-color);
+    padding: 28px 110px;
+    margin: 0;
+    transition: all .50s ease;
+}
+
+.main-btn.active {
+    background-color: ($main-button-hover-color);
+    padding: 25px 110px;
+}
+
+.main-btn.inactive {
+    background-color: ($main-button-inactive-color)
+}
+
+/*SMALL BUTTON*/
+
+.small-button{
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    color: ($main-button-text-color);
+    background-color: ($main-button-color);
+    border: none;
+    border-radius: 40px;
+    padding: 10px 50px;
+    margin: 10px;
+    transition: all .50s ease;
+}
+
+.small-button.button-default:hover {
+    background-color: ($main-button-hover-color);
+    padding: 20px 60px;
+    margin: 0;
+    transition: all .50s ease;
+}
+
+.small-button.active {
+    background-color: ($main-button-hover-color);
+    padding: 15px 55px;
+    transition: all .50s ease;
+}
+
+.small-button.inactive {
+    background-color: ($main-button-inactive-color)
+}
+
+
+/*BUTTON 1 GROUP*/
+
+.button-group1 {
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    color: ($main-button-text-color);
+    background-color: ($main-button-color);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 8px;
+    margin: 10px;
+    transition: all .10s ease;
+}
+
+.button-group1.button-default:hover {
+    background-color: ($main-button-hover-color);
+    padding: 18px 18px;
+    margin: 0;
+    transition: all .10s ease;
+}
+
+.button-group1.active {
+    background-color: ($main-button-hover-color);
+    padding: 10px 10px;
+}
+
+.button-group1.inactive {
+    background-color: ($main-button-inactive-color)
+}
+
+/*BUTTON 2 GROUP*/
+
+.button-group2 {
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    border: solid;
+    color: ($main-button-color);
+    border-color: ($main-button-color);
+    border-radius: 10px;
+    padding: 8px 8px;
+    margin: 10px;
+    transition: all .10s ease;
+}
+
+.button-group2.button-default:hover {
+    border: solid;
+    color: ($main-button-hover-color);
+    border-color: ($main-button-hover-color);
+    padding: 18px 18px;
+    margin: 0;
+    transition: all .10s ease;
+}
+
+.button-group2.active {
+    border: solid;
+    color: ($main-button-hover-color);
+    border-color: ($main-button-hover-color);
+    padding: 10px 10px;
+}
+
+.button-group2.inactive {
+    border: solid;
+    color: ($main-button-inactive-color);
+    border-color: ($main-button-inactive-color);
+}

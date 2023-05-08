@@ -1,0 +1,31 @@
+.gallery-flex-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.g-container {
+    width: 325px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 10px;
+}
+
+.g-container:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 3rem 6rem (rgba(0, 0, 0, 0.5));
+    /* transition: all .5s ease;
+    color: red; */
+}
+
+.gallery-img {
+    display: block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    
+}
