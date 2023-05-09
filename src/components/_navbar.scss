@@ -31,11 +31,12 @@
 //     transition: all .50s ease;
 // }
 
-  .nav-menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center
-  }
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
   .nav-link {
     text-decoration: none;
